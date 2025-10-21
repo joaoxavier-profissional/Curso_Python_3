@@ -11,6 +11,24 @@ while calculadora is True:
         resultado = numero_1 + numero_2
         print(resultado)
     
+    if operador == "2":
+        numero_1 = float(input("Qual o primeiro numero? "))
+        numero_2 = float(input("Qual o segundo numero? "))
+        resultado = numero_1 - numero_2
+        print(resultado)
+    
+    if operador == "3":
+        numero_1 = float(input("Qual o primeiro numero? "))
+        numero_2 = float(input("Qual o segundo numero? "))
+        resultado = numero_1 * numero_2
+        print(resultado)
+    
+    if operador == "4":
+        numero_1 = float(input("Qual o primeiro numero? "))
+        numero_2 = float(input("Qual o segundo numero? "))
+        resultado = numero_1 / numero_2
+        print(resultado)
+
     sair = input("Deseja sair?\n [s]im: ").lower().startswith('s')
 
     if sair:
